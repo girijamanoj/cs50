@@ -2,7 +2,7 @@
 #include<cs50.h>
 #include<string.h>
 #include<ctype.h>
-int main(void)
+void main(void)
 {
     string s = get_string();
 
