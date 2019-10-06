@@ -7,7 +7,7 @@ void main(void)
     string s = get_string();
 
     printf("%c", toupper(s[0]));
-    for(int i=0;i<strlen(s);i++)
+    for(int i=0;i<strlen(s)-1;i++)
     {
         if(s[i] == ' ')
         {
